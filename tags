@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/randyt/Workspace/UnderwaterImageEnhancement/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20211128.0/
+**/target	.vscode/settings.json	/^    "**\/target": true$/;"	b	object:files.watcherExclude
+Abstract	underwater-image-enhancement/README.md	/^## Abstract$/;"	s	chapter:underwater-image-enhancement
+Block Diagram	underwater-image-enhancement/README.md	/^## Block Diagram $/;"	s	chapter:underwater-image-enhancement
+Citation	TEBCF_tgrs/README.md	/^## Citation$/;"	s	chapter:TEBCF_Matlab
+License	TEBCF_tgrs/README.md	/^##  License$/;"	s	chapter:TEBCF_Matlab
+Results	underwater-image-enhancement/README.md	/^## Results$/;"	s	chapter:underwater-image-enhancement
+TEBCF_Matlab	TEBCF_tgrs/README.md	/^# TEBCF_Matlab$/;"	c
+Testing	TEBCF_tgrs/README.md	/^## Testing$/;"	s	chapter:TEBCF_Matlab
+about	underwater-image-enhancement/uie_web_app.py	/^def about():$/;"	f
+args	scripts/inference.py	/^    args = parser.parse_args()$/;"	v
+average_fusion	underwater-image-enhancement/uie_web_app.py	/^def average_fusion(image1, image2):$/;"	f
+camera	scripts/inference.py	/^    camera = cv2.VideoCapture(args.filename)$/;"	v
+clahe	scripts/pipeline.py	/^clahe = cv.createCLAHE(clipLimit=2.0,tileGridSize=(8,8))$/;"	v
+compensate_RB	underwater-image-enhancement/uie_web_app.py	/^def compensate_RB(image, flag):$/;"	f
+cuda	scripts/inference.py	/^cuda = torch.device('cuda')$/;"	v
+cv	scripts/pipeline.py	/^import cv2 as cv$/;"	I	nameref:module:cv2
+dark_elm	scripts/pipeline.py	/^dark_elm = np.percentile(img_gray,2,method="inverted_cdf")$/;"	v
+ext	scripts/inference.py	/^            prefix, ext = args.filename.split('.')$/;"	v
+ext	scripts/inference.py	/^    ext = args.filename.split('.')[-1]$/;"	v
+fid	scripts/inference.py	/^        fid = fid + 1$/;"	v
+fid	scripts/inference.py	/^    fid = 0$/;"	v
+filename	scripts/pipeline.py	/^filename = "" $/;"	v
+files.watcherExclude	.vscode/settings.json	/^  "files.watcherExclude": {$/;"	o
+fourcc	scripts/inference.py	/^    fourcc = cv2.VideoWriter_fourcc(*args.codec)$/;"	v
+frame	scripts/inference.py	/^        ref, frame = camera.read()$/;"	v
+gray_world	underwater-image-enhancement/uie_web_app.py	/^def gray_world(image):$/;"	f
+h	scripts/inference.py	/^            h, w = frame.shape[:2]$/;"	v
+hsv_global_equalization	underwater-image-enhancement/uie_web_app.py	/^def hsv_global_equalization(image):$/;"	f
+image	TEBCF_tgrs/TEBCF_tgrs/demo.m	/^image= imread(imagepath);$/;"	v
+image_enhancer	underwater-image-enhancement/uie_web_app.py	/^def image_enhancer():$/;"	f
+imagepath	TEBCF_tgrs/TEBCF_tgrs/demo.m	/^imagepath = '.\/image\/1.jpg';$/;"	v
+img	scripts/pipeline.py	/^img = cv.imread(filename)$/;"	v
+img_gray	scripts/pipeline.py	/^img_gray = cv.cvtColor(img,cv.COLOR_BGR2GRAY)$/;"	v
+main	underwater-image-enhancement/uie_web_app.py	/^def main():$/;"	f
+model	scripts/inference.py	/^    preprocess, postprocess, model = torch.hub.load($/;"	v
+np	scripts/inference.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	scripts/pipeline.py	/^import numpy as np$/;"	I	nameref:module:numpy
+np	underwater-image-enhancement/uie_web_app.py	/^import numpy as np$/;"	I	nameref:module:numpy
+out_img	scripts/inference.py	/^            out_img = cv2.resize(out_img, np.int32($/;"	v
+out_img	scripts/inference.py	/^            out_img = postprocess(out_ten).squeeze()$/;"	v
+out_ten	scripts/inference.py	/^            out_ten = model(rgb_ten, wb_ten, he_ten, gc_ten)$/;"	v
+parser	scripts/inference.py	/^parser = argparse.ArgumentParser(prog="waternet",$/;"	v
+pca_fusion	underwater-image-enhancement/uie_web_app.py	/^def pca_fusion(image1, image2):$/;"	f
+plt	underwater-image-enhancement/uie_web_app.py	/^from matplotlib import pyplot as plt$/;"	x	nameref:unknown:pyplot
+postprocess	scripts/inference.py	/^    preprocess, postprocess, model = torch.hub.load($/;"	v
+prefix	scripts/inference.py	/^            prefix = os.path.abspath(prefix)$/;"	v
+prefix	scripts/inference.py	/^            prefix, ext = args.filename.split('.')$/;"	v
+preprocess	scripts/inference.py	/^    preprocess, postprocess, model = torch.hub.load($/;"	v
+ref	scripts/inference.py	/^        ref, frame = camera.read()$/;"	v
+result	TEBCF_tgrs/TEBCF_tgrs/demo.m	/^result = TEBCF(image);$/;"	v
+sharpen	underwater-image-enhancement/uie_web_app.py	/^def sharpen(wbimage, original):$/;"	f
+st	underwater-image-enhancement/uie_web_app.py	/^import streamlit as st$/;"	I	nameref:module:streamlit
+underwater-image-enhancement	underwater-image-enhancement/README.md	/^# underwater-image-enhancement$/;"	c
+underwater_image_enhancement	underwater-image-enhancement/uie_web_app.py	/^def underwater_image_enhancement(image, flag):$/;"	f
+video_frame	scripts/inference.py	/^            video_frame = torch.tensor(frame)$/;"	v
+vw	scripts/inference.py	/^            vw = cv2.VideoWriter($/;"	v
+vw_path	scripts/inference.py	/^            vw_path = "".join([prefix, "_uwe", ".", ext])$/;"	v
+w	scripts/inference.py	/^            h, w = frame.shape[:2]$/;"	v
